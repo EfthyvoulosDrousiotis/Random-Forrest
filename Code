@@ -97,7 +97,7 @@ def gini_index(groups, classes):
 	return gini
  
     
-# Calculate the Gini index for a split dataset
+# Calculate the Entropy for a split dataset
 def entropy_split(groups, classes):
 	# count all samples at split point
 	n_instances = float(sum([len(group) for group in groups]))
